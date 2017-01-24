@@ -43,9 +43,14 @@ span.mini-cart-counter,
 .navi-level-1.hover-style-2 li a span:before,
 .navi-level-1.hover-style-3 li a span:before,
 .navi-level-1.hover-style-5 li a span:before,
-.main-sidebar .tagcloud a:hover
+.main-sidebar .tagcloud a:hover,
  {
   background-color: #0888f0;
+}
+
+.btn-sub-color
+ {
+  background: #0888f0;
 }
 
 /*Fade background 95%*/

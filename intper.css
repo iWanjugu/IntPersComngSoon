@@ -1,6 +1,73 @@
 .btn-sub-color {
 /*  background: #fff;*/
 /*    background: rgba(250, 183, 2, 0.95);*/
-    background: #ebcd1e;
+    background: #ffcc33;
 /*    font-weight: 600;*/
+}
+
+
+/*Coming Soon Page*/
+.coming_soon_logo {
+    margin-bottom: 30px;
+}
+
+
+.coming-soon p {
+    font-size: 1.8rem;
+    line-height: 30px;
+    font-weight: normal;
+    font-style: normal !important;
+    color: #333;
+}
+
+/* Comming Soon */
+.background-cs {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 0;
+}
+
+.overley-cs {
+  z-index: 1;        
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+/*  background-image: url(images/ComingSoon/1.jpg);*/
+  -webkit-background-size: cover !important;
+          background-size: cover !important;
+  background-attachment: scroll !important;
+}
+
+.ip-grey-overlay {background-color:rgba(192,192,192,0.85);}
+.ip-yellow-overlay {background-color:rgba(255,255,0,0.3);}
+.ip-white-overlay {background-color:rgba(255,255,255, 0.75);}
+.ip-black-overlay {background-color: rgba(0, 0, 0, 0.6);}
+
+/*Subscribe*/
+.newsletter-comingsoon {
+    max-width: 670px;
+    margin: 25px auto;
+    margin-top: 70px;
+}
+
+.newsletter-comingsoon .ot-btn {
+    font-size: .8rem;
+    color: #333;
+    height: 40px;
+    line-height: 40px;
+    display: inline-block;
+    vertical-align: middle;
+    text-align: center;
+    padding: 0 25px;
+     margin-bottom: 0; 
+    outline: none;
+    -webkit-transition: all 0.6s ease 0s;
+    transition: all 0.6s ease 0s;
+    font-family: 'Montserrat', sans-serif;
+    letter-spacing: 1px;
 }

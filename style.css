@@ -206,9 +206,11 @@ ul.social li.active a {
   color: #fff;
   background: #333;
 }
+/*
 .btn-sub-color {
   background: #fff;
 }
+*/
 .btn-sub-color:hover {
   background: #333;
   color: #fff;
@@ -4603,7 +4605,7 @@ h4 mark {
 }
 #royal_preloader.logo .loader {
   width: 120px;
-  height: 60px;
+  height: 160px;
   position: absolute;
   left: 50%;
   top: 50%;
@@ -8892,7 +8894,7 @@ ul.address li {
   position: fixed;
   top: 0;
   left: 0;
-  background-image: url(images/ComingSoon/1.jpg);
+/*  background-image: url(images/ComingSoon/1.jpg);*/
   -webkit-background-size: cover !important;
           background-size: cover !important;
   background-attachment: scroll !important;
