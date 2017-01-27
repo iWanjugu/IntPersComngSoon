@@ -5,13 +5,75 @@
 /*    font-weight: 600;*/
 }
 
-#section-coming-soon {
-    block-size: 100;
+/*Preloader*/
+#royal_preloader {
+    width: 100%;
+    height: 100%;
+    font-family: Arial;
+    font-size: 12px;
+    visibility: visible;
+    position: fixed;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    z-index: 9999999999;
+    -webkit-transition: opacity 0.2s linear 0.8s;
+    transition: opacity 0.2s linear 0.8s;
 }
+
+#royal_preloader.logo .loader {
+    width: 60px;
+    height: 90px;
+    position: absolute;
+    left: 50%;
+    top: 45%;
+    margin: -14px 0px 0px -60px;
+    -webkit-background-size: 100% auto;
+    background-size: 100% auto;
+    overflow: hidden;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    /* background-size: cover; */
+}
+
+#royal_preloader.logo .percentage {
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 13px;
+    letter-spacing: 2px;
+    top: 45%;
+    left: 50%;
+    margin: 20px 0px 0px -45px;
+/*    margin: 0 auto;*/
+    color: #212121;
+    text-align: center;
+/*    background-color: rgb(255, 255, 255);*/
+    background-color: transparent !important;
+/*     visibility:hidden;*/
+}
+
+
 
 /*Coming Soon Page*/
 .coming_soon_logo {
-    margin-bottom: 30px
+    margin-bottom: 20px
+}
+
+/*Logo*/
+.ip-logo-image {
+    width: 70px;
+    height: 70px;
+}
+
+
+.ip-logo-words {
+    width: 210px;
+    height: 77px;
 }
 
 .ip-logo-words {
@@ -20,7 +82,7 @@
 
 
 .coming-soon p {
-    font-size: 1.4rem;
+    font-size: 1.3rem;
     line-height: 30px;
     font-weight: normal;
     font-style: normal !important;
@@ -28,7 +90,7 @@
 }
 
 .p-big {
-    font-size: 2rem !important;
+    font-size: 1.5rem !important;
 }
 
 /* Comming Soon */
@@ -76,7 +138,7 @@
 }
 
 .newsletter-comingsoon .ot-btn {
-    font-size: .8rem;
+    font-size: .75rem;
     color: #333;
     height: 40px;
     line-height: 40px;
@@ -96,7 +158,7 @@
 
 /*Countdown*/
 ul.countdown li span {
-    font-size: 2.4rem;
+    font-size: 2.3rem;
 }
 
 /*Modal*/
@@ -124,16 +186,36 @@ ul.countdown li span {
 
 @media only screen and (max-width: 767px){
 
+/*Loader*/
+    #royal_preloader.logo .loader {
+    width: 60px;
+    height: 90px;
+    position: absolute;
+    left: 57%;
+    top: 45%;
+    margin: -14px 0px 0px -60px;
+}
+
+#royal_preloader.logo .percentage {
+    width: 30px;
+    height: 30px;
+    font-size: 12px;
+    letter-spacing: 2px;
+    top: 45%;
+    left: 57%;
+    margin: 20px 0px 0px -45px;
+}
+
 /*Logo*/
     .ip-logo-image {
-        width: 65px;
-        height: 65px;
+        width: 63px;
+        height: 63px;
     }
 
 
     .ip-logo-words {
-        width: 200px;
-        height: 70px;
+        width: 180px;
+        height: 60px;
     }
 
 
@@ -141,6 +223,10 @@ ul.countdown li span {
     .coming-soon p {
         font-size: 1.2rem;
     }
+
+    .p-big {
+    font-size: 1.2rem !important;
+}
 
 /*Subscribe Email  text*/
     .newsletter-comingsoon {
