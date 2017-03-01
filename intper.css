@@ -1,3 +1,15 @@
+/*BODY CUSTOMIZATIONS*/
+
+body {
+/*  font-family: 'Roboto', sans-serif;*/
+  font-family: 'Ubuntu', sans-serif !important;
+/*  font-size: 15px;*/
+   line-height: 25px;
+  color: #666;
+  overflow: hidden;
+}
+
+
 .btn-sub-color {
 /*  background: #fff;*/
 /*    background: rgba(250, 183, 2, 0.95);*/
@@ -39,6 +51,7 @@
 
 #royal_preloader.logo .percentage {
     position: absolute;
+    display: none;
     width: 30px;
     height: 30px;
     line-height: 30px;
@@ -66,18 +79,20 @@
 
 /*Logo*/
 .ip-logo-image {
-    width: 70px;
+    width: 130px;
+    height: 130px;
+}
+
+
+.ip-logo-words {
+    width: 190px;
     height: 70px;
-}
-
-
-.ip-logo-words {
-    width: 210px;
-    height: 77px;
+    margin-left: -15px;
+/*    margin-top: 10px;*/
 }
 
 .ip-logo-words {
-    margin-top: 10px;
+
 }
 
 
@@ -208,14 +223,15 @@ ul.countdown li span {
 
 /*Logo*/
     .ip-logo-image {
-        width: 63px;
-        height: 63px;
+        width: 90px;
+        height: 90px;
     }
 
 
     .ip-logo-words {
-        width: 180px;
-        height: 60px;
+        width: 170px;
+        height: 56px;
+/*        margin-left: -10px*/
     }
 
 
