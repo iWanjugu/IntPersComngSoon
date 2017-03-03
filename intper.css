@@ -4,7 +4,7 @@ body {
 /*  font-family: 'Roboto', sans-serif;*/
   font-family: 'Ubuntu', sans-serif !important;
 /*  font-size: 15px;*/
-   line-height: 25px;
+ line-height: 25px !important;
   color: #666;
   overflow: hidden;
 }
@@ -123,6 +123,16 @@ header .left-header .navi-level-1 li a.logo {
   width: 100%;
 }
 
+/*FOOTER*/
+.footer_icon {
+
+}
+
+.footer_icon img {
+    margin-bottom: 15px !important;
+
+}
+
 /*===============================================================*/
 /*Page Preloader*/
 /*===============================================================*/
@@ -189,8 +199,8 @@ header .left-header .navi-level-1 li a.logo {
 
 /*Logo*/
 .ip-logo-image {
-    width: 130px;
-    height: 130px;
+    width: 250px;
+    height: 100px;
 }
 
 
@@ -199,6 +209,13 @@ header .left-header .navi-level-1 li a.logo {
     height: 70px;
     margin-left: -15px;
 /*    margin-top: 10px;*/
+}
+
+.ip-logo-image-form{
+    width: 60px;
+    height: 65px;
+    margin-bottom: -20px;
+    margin-top: 10px;
 }
 
 .coming-soon p {
