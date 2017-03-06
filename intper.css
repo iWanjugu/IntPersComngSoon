@@ -54,17 +54,9 @@ body {
 /*===============================================================*/
 /*HEADER*/
 /*===============================================================*/
-/*logo Backgrounds*/
-
+/*logo*/
 .y_back {
     background-color: #facc48;
-}
-
-
-/*header edits*/
-header .left-header .navi-level-1 li a.logo {
-    padding: 0px !important;
-
 }
 
 .navi-level-1 > li a {
@@ -75,13 +67,19 @@ header .left-header .navi-level-1 li a.logo {
     letter-spacing: 1px;
     text-transform: uppercase;
     position: relative;
-    padding: 18px 30px 17px 30px;
+/*    padding: 18px 30px 17px 30px;*/
     color: #555;
     letter-spacing: 2px;
 }
 
-.header-v5 {
+header .left-header .navi-level-1 li a.logo {
+    padding: 0px !important;
 
+}
+
+.logo>img {
+     width: 140px !important;
+     margin: 0px 0px 10px 0px;
 }
 
 .header-v5 .left-header {
@@ -90,13 +88,58 @@ header .left-header .navi-level-1 li a.logo {
     margin: 10px;
 }
 
-.h-nav, .right-header {
-    height: 100%;
-    margin-top: 15px
+.h-nav {
+    margin-top: 10px;
+    padding: 0 !important
+}
+
+.right-header {
+    margin-top: 30px;
+    padding: 0 !important
 }
 
 #main-navi {}
 
+/*---------------------------------------------------*/
+    @media only screen and (max-width: 991px) {
+        .logo>img {
+                width: 130px !important;
+                margin: 5px 0px;
+            }
+        .h-nav {
+            margin-top: 10px;
+            padding: 0 !important
+        }
+
+        .right-header {
+            margin-top: 10px;
+        }
+    }
+
+/*---------------------------------------------------*/
+    @media only screen and (max-width: 767px){
+
+        .logo>img {
+             width: 110px !important;
+             margin: 10px 0px;
+        }
+
+        .h-nav {
+            margin-top: 10px;
+            padding: 0 !important
+        }
+
+        .right-header {
+            margin-top: 27px;
+            padding: 0 !important
+        }
+
+    }
+
+
+
+/*---------------------------------------------------*/
+/*---------------------------------------------------*/
 /* Hover Effect Link */
 .navi-level-1.hover-style-2 li a span {
   display: block;
@@ -123,7 +166,12 @@ header .left-header .navi-level-1 li a.logo {
   width: 100%;
 }
 
+
+
+/*===============================================================*/
 /*FOOTER*/
+/*===============================================================*/
+
 .footer_icon {
 
 }
