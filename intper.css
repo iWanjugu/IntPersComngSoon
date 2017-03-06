@@ -90,7 +90,7 @@ header .left-header .navi-level-1 li a.logo {
     margin: 10px;
 }
 
-.h-nav {
+.h-nav, .right-header {
     height: 100%;
     margin-top: 15px
 }
@@ -391,4 +391,11 @@ ul.countdown li span {
    ul.countdown li span {
         font-size: 2rem;
     }
+}
+
+
+.seperator {
+    width: 100%;
+    height: 20px;
+    background-color: #fff;
 }
