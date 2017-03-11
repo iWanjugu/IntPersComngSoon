@@ -51,6 +51,33 @@ body {
           background-size: cover !important;
   background-attachment: scroll !important;
 }
+
+
+@media only screen and (max-width: 479px){
+
+    h3 {
+        font-family: 'Roboto', sans-serif;
+        font-size: 1.3rem;
+        line-height: 1.2;
+        letter-spacing: 2px;
+        }
+
+    .contact-warp  {
+        text-align: center;
+    }
+
+    .contact-warp .left-contact {
+        padding: 0px;
+    }
+
+     .contact-warp .right-contact {
+        margin: 50px 0px;
+        padding: 0px;
+    }
+}
+
+
+
 /*===============================================================*/
 /*HEADER*/
 /*===============================================================*/
@@ -157,7 +184,7 @@ header .left-header .navi-level-1 li a.logo {
 /*---------------------------------------------------*/
     @media only screen and (max-width: 767px){
 
-        .logo>img {
+        .left-header .logo>img {
              width: 110px !important;
         }
 
@@ -176,6 +203,11 @@ header .left-header .navi-level-1 li a.logo {
             padding: 0!important
         }
 
+        /* sub header portfolio and contacts */
+        .sub-header-1 {
+            height: 250px !important;
+        }
+
     }
 
 /*---------------------------------------------------*/
@@ -186,17 +218,24 @@ header .left-header .navi-level-1 li a.logo {
         margin: 10px 10px 12px 10px!important;
     }
 
-    .left-header li {}
-
     .left-header li,
-    .logo,
-    .logo>img {
+    .left-header .logo,
+    .left-header .logo>img {
         width: 95px!important;
-
     }
+
+    /* sub header portfolio and contacts */
+        .sub-header-1 {
+            height: 200px !important;
+        }
 }
 
-
+/*=====================================================*/
+/*TEAM*/
+/*=====================================================*/
+#team {
+    margin-top: 50px;
+}
 
 /*===============================================================*/
 /*FOOTER*/
@@ -260,7 +299,7 @@ header .left-header .navi-level-1 li a.logo {
 /*===============================================================*/
 
 #royal_preloader {
-    width: 100%;
+    width: 100% !important;
     height: 100%;
     font-family: Arial;
     font-size: 12px;
@@ -311,6 +350,38 @@ header .left-header .navi-level-1 li a.logo {
 /*     visibility:hidden;*/
 }
 
+/*---------------------------------------------------*/
+@media only screen and (max-width: 767px){
+
+    /*Loader*/
+        #royal_preloader.logo .loader {
+        width: 60px;
+        height: 90px;
+        position: absolute;
+        left: 57%;
+        top: 45%;
+        margin: -14px 0px 0px -60px;
+    }
+
+    #royal_preloader.logo .percentage {
+        width: 30px;
+        height: 30px;
+        font-size: 12px;
+        letter-spacing: 2px;
+        top: 45%;
+        left: 57%;
+        margin: 20px 0px 0px -45px;
+    }
+}
+
+/*---------------------------------------------------*/
+@media only screen and (max-width: 479px){
+
+    #royal_preloader.logo .loader {
+        width: 40px;
+        height: 60px;
+    }
+}
 
 /*===============================================================*/
 /*Coming Soon Page*/
@@ -437,42 +508,8 @@ ul.countdown li span {
 
 
 
-
+/*---------------------------------------------------*/
 @media only screen and (max-width: 767px){
-
-/*Loader*/
-    #royal_preloader.logo .loader {
-    width: 60px;
-    height: 90px;
-    position: absolute;
-    left: 57%;
-    top: 45%;
-    margin: -14px 0px 0px -60px;
-}
-
-#royal_preloader.logo .percentage {
-    width: 30px;
-    height: 30px;
-    font-size: 12px;
-    letter-spacing: 2px;
-    top: 45%;
-    left: 57%;
-    margin: 20px 0px 0px -45px;
-}
-
-/*Logo*/
-    .ip-logo-image {
-        width: 90px;
-        height: 90px;
-    }
-
-
-    .ip-logo-words {
-        width: 170px;
-        height: 56px;
-/*        margin-left: -10px*/
-    }
-
 
 /*Coming Soon text*/
     .coming-soon p {
