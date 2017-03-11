@@ -35,7 +35,7 @@ body {
 
 .img-responsive {
     display: block;
-    max-width: 150%;
+/*    max-width: 150%;*/
     height: auto;
 }
 
@@ -100,6 +100,44 @@ header .left-header .navi-level-1 li a.logo {
 
 #main-navi {}
 
+.active {
+    text-decoration-line: line-through;
+    text-decoration-color: #ebcd1e;
+    text-decoration-style: solid 3px;
+
+/*    text-decoration: line-through #ebcd1e solid 3px;*/
+}
+
+/*---------------------------------------------------*/
+/* Hover Effect Link */
+.navi-level-1.hover-style-2 li a span {
+  display: block;
+  position: relative;
+}
+
+.navi-level-1.hover-style-2 li a span:before,
+.navi-level-1.hover-style-2 li a:active,
+.navi-level-1.hover-style-2 li a:selected {
+  display: block;
+  width: 0;
+  height: 3px;
+  position: absolute;
+  background: #ebcd1e;
+  left: 0;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+      -ms-transform: translateY(-50%);
+          transform: translateY(-50%);
+  content: "";
+  -webkit-transition: all 0.3s ease-in-out;
+          transition: all 0.3s ease-in-out;
+  z-index: -1;
+}
+.navi-level-1.hover-style-2 li a:hover span:before {
+  width: 100%;
+}
+
+
 /*---------------------------------------------------*/
     @media only screen and (max-width: 991px) {
         .logo>img {
@@ -139,32 +177,6 @@ header .left-header .navi-level-1 li a.logo {
 
 
 /*---------------------------------------------------*/
-/*---------------------------------------------------*/
-/* Hover Effect Link */
-.navi-level-1.hover-style-2 li a span {
-  display: block;
-  position: relative;
-}
-
-.navi-level-1.hover-style-2 li a span:before, .navi-level-1.hover-style-2 li a:active, .navi-level-1.hover-style-2 li a:selected {
-  display: block;
-  width: 0;
-  height: 3px;
-  position: absolute;
-  background: #ebcd1e;
-  left: 0;
-  top: 50%;
-  -webkit-transform: translateY(-50%);
-      -ms-transform: translateY(-50%);
-          transform: translateY(-50%);
-  content: "";
-  -webkit-transition: all 0.3s ease-in-out;
-          transition: all 0.3s ease-in-out;
-  z-index: -1;
-}
-.navi-level-1.hover-style-2 li a:hover span:before {
-  width: 100%;
-}
 
 
 

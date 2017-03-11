@@ -3,9 +3,13 @@
     //set your google maps parameters
 
     $(document).ready(function(){
-        var latitude = -37.817,
-            longitude = 144.962,
-            map_zoom = 14;
+//        var latitude = -37.817,
+//            longitude = 144.962,
+//            map_zoom = 14;
+
+        var latitude = -1.2924,
+            longitude = 36.7780,
+            map_zoom = 17;
 
         var locations = [
             ['<div class="infobox"><span>WE ARE FINANCE<span></br><span>Email: contact@finance.com</span></div>'
@@ -151,7 +155,8 @@
             marker = new google.maps.Marker({ 
                 position: new google.maps.LatLng(locations[i][1], locations[i][2]), 
                 map: map,
-                icon: 'images/Contact/cd-icon-location.png'
+//                icon: 'images/IntPerspectImages/logos/ip_logo_icon.png'
+                icon: 'images/IntPerspectImages/logos/ip-loc-icon.png'
             });
         
           google.maps.event.addListener(marker, 'click', (function(marker, i) {
@@ -198,4 +203,3 @@
 
 
 
-    

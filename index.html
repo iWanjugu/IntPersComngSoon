@@ -48,15 +48,10 @@
 <!--      <link rel="shortcut icon" href="favicon.png">-->
        <link rel="shortcut icon" href="ip_logo.png">
    </head>
+
+
    <body>
 
-       <!--------------------------------------------------------->
-      <!-- SWITCHER OF COLORS -->
-
-      <!-- End Switcher Color -->
-       
-       
-       
       <!-------------------------------------------------------------->
       <!-- MOBILE -->
       <div class="mobile-menu-first">
@@ -197,8 +192,6 @@
                         <li>
                             <a href="index.html" class="logo">
                                 <img src="images/IntPerspectImages/logos/ip_logo_horizontal_grey.png" class="img-responsive" width="100%" height=""  alt="Image">
-
-
                             </a>
                          </li>
                      </ul>
@@ -206,23 +199,23 @@
                   <!-- End Left Header -->
 
                    <!---------------------------------------------------->
-                  <nav class="h-nav f-vert">
+                  <nav class="h-nav f-vert nav">
                      <ul id="main-navi" class="navi-level-1 hover-style-2 main-navi">
 
                          <!-- Home -->
                         <li class="has-sub">
-                           <a href="index.html"><span>Home</span></a>
+                           <a href="#pageTop" class="active"><span>Home</span></a>
                          </li>
 
                          <!-- Who we are -->
                         <li class="has-sub">
-                           <a href="#about"><span>Who We Are</span></a>
-                           <ul class="navi-level-2">
-                              <li><a href="#ourProcess">Our Processes</a>
-                              <li><a href="#whatWeDo">What We Do</a></li>
-                              </li>
-                              <li><a href="#team">Meet Our Team</a></li>
-                           </ul>
+                           <a href="#welcome"><span>Who We Are</span></a>
+                               <ul class="navi-level-2">
+                                  <li><a href="#ourProcess">Our Processes</a>
+                                  <li><a href="#whatWeDo">What We Do</a></li>
+                                  </li>
+                                  <li><a href="#team">Meet Our Team</a></li>
+                               </ul>
                         </li>
 
                          <!-- Portfolio -->
@@ -288,7 +281,7 @@
              
             <!-- =================================================== -->
             <!-- SECTION 1: Slider -->
-            <section>
+            <section id="pageTop">
                 <div id="background-cs" class=""></div>
 
                 <div class="overley-cs-home ip-black-overlay">
@@ -421,17 +414,18 @@
                             
 
                             
-                           <a href="portfolio.html" class="ot-btn btn-main-color text-cap mgb0">
+<!--
+                           <a href="#" class="ot-btn btn-main-color text-cap mgb0">
                                our projects 
                                <i class="fa fa-long-arrow-right" aria-hidden="true"></i>
                            </a>
+-->
                         </div>
                      </div>
                   </div>
                </div>
             </section>
             <!-- End Section Welcome Text -->
-
 
 
             <!-- =================================================== -->
@@ -594,13 +588,20 @@
             <section id="portfolio">
                <div class="sub-header sub-header-1 sub-header-portfolio-grid-1 fake-position">
                   <div class="sub-header-content">
-                     <h2 class="text-cap white-text">Portfolio Grid</h2>
+                     <h2 class="text-cap white-text">Our Projects</h2>
+                      <div class="divider divider-2">
+                           <svg class="svg-triangle-icon-container">
+                              <polygon class="svg-triangle-icon" points="6 11,12 0,0 0"></polygon>
+                           </svg>
+                        </div>
+<!--
                      <ol class="breadcrumb breadcrumb-arc text-cap">
                         <li>
                            <a href="#">Home</a>
                         </li>
                         <li class="active">Portfolio Grid</li>
                      </ol>
+-->
                   </div>
                </div>
             </section>
@@ -631,7 +632,7 @@
                         </div>
                         <!-- End Project Fillter -->
                         <div class="clearfix projectContainer portfolio-grid-v2-3-col-container">
-                           <div class="element-item  Residential">
+                           <div class="element-item Residential">
                               <a class="portfolio-img-demo" href="portfolioDetail_1.html"><img src="http://placehold.it/960x720/ccc.jpg" class="img-responsive" alt="Image"></a>
                               <div class="project-info">
                                  <a href="portfolioDetail.html">
@@ -640,7 +641,7 @@
                                  <a href="portfolioDetail.html" class="cateProject">Residential</a>
                               </div>
                            </div>
-                           <div class="element-item Residential ">
+                           <div class="element-item Residential">
                               <a class="portfolio-img-demo" href="portfolioDetail_1.html"><img src="http://placehold.it/960x720/ccc.jpg" class="img-responsive" alt="Image"></a>
                               <div class="project-info">
                                  <a href="portfolioDetail.html">
@@ -660,7 +661,7 @@
                                  <a href="portfolioDetail.html" class="cateProject">Residential</a>
                               </div>
                            </div>
-                           <div class="element-item Ecommercial ">
+                           <div class="element-item Ecommercial">
 
                               <a class="portfolio-img-demo" href="portfolioDetail_1.html"><img src="http://placehold.it/960x720/ccc.jpg" class="img-responsive" alt="Image"></a>
 
@@ -693,7 +694,7 @@
                                  <a href="portfolioDetail.html" class="cateProject">Ecommercial</a>
                               </div>
                            </div>
-                           <div class="element-item Hospital ">
+                           <div class="element-item Hospital">
 
                               <a class="portfolio-img-demo" href="portfolioDetail_1.html"><img src="http://placehold.it/960x720/ccc.jpg" class="img-responsive" alt="Image"></a>
 
@@ -705,30 +706,14 @@
                               </div>
                            </div>
                            <div class="element-item Hospital">
+
                               <a class="portfolio-img-demo" href="portfolioDetail_1.html"><img src="http://placehold.it/960x720/ccc.jpg" class="img-responsive" alt="Image"></a>
+
                               <div class="project-info">
                                  <a href="portfolioDetail.html">
-                                    <h4 class="title-project text-cap">Ocean view Building</h4>
+                                    <h4 class="title-project text-cap">Ogrange Corporate</h4>
                                  </a>
-                                 <a href="portfolioDetail.html" class="cateProject">Residential</a>
-                              </div>
-                           </div>
-                           <div class="element-item  Residential">
-                              <a class="portfolio-img-demo" href="portfolioDetail_1.html"><img src="http://placehold.it/960x720/ccc.jpg" class="img-responsive" alt="Image"></a>
-                              <div class="project-info">
-                                 <a href="portfolioDetail.html">
-                                    <h4 class="title-project text-cap text-cap">Modern Design</h4>
-                                 </a>
-                                 <a href="portfolioDetail.html" class="cateProject">Resident</a>
-                              </div>
-                           </div>
-                           <div class="element-item Residential ">
-                              <a class="portfolio-img-demo" href="portfolioDetail_1.html"><img src="http://placehold.it/960x720/ccc.jpg" class="img-responsive" alt="Image"></a>
-                              <div class="project-info">
-                                 <a href="portfolioDetail.html">
-                                    <h4 class="title-project text-cap">Dream house</h4>
-                                 </a>
-                                 <a href="portfolioDetail.html" class="cateProject">Residential</a>
+                                 <a href="portfolioDetail.html" class="cateProject">Office</a>
                               </div>
                            </div>
                            <div class="element-item Ecommercial">
@@ -737,18 +722,7 @@
 
                               <div class="project-info">
                                  <a href="portfolioDetail.html">
-                                    <h4 class="title-project text-cap">Living Room Art</h4>
-                                 </a>
-                                 <a href="portfolioDetail.html" class="cateProject">Residential</a>
-                              </div>
-                           </div>
-                           <div class="element-item Ecommercial ">
-
-                              <a class="portfolio-img-demo" href="portfolioDetail_1.html"><img src="http://placehold.it/960x720/ccc.jpg" class="img-responsive" alt="Image"></a>
-
-                              <div class="project-info">
-                                 <a href="portfolioDetail.html">
-                                    <h4 class="title-project text-cap">Bedroom Design Awward</h4>
+                                    <h4 class="title-project text-cap">Bathroom furniture</h4>
                                  </a>
                                  <a href="portfolioDetail.html" class="cateProject">Residential</a>
                               </div>
@@ -927,12 +901,20 @@
 					<div class="sub-header sub-header-1 sub-header-contact fake-position">
 						<div class="sub-header-content">
 							<h2 class="text-cap white-text">Contact Us</h2>
+
+                            <div class="divider divider-2">
+                               <svg class="svg-triangle-icon-container">
+                                  <polygon class="svg-triangle-icon" points="6 11,12 0,0 0"></polygon>
+                               </svg>
+                            </div>
+<!--
 							<ol class="breadcrumb breadcrumb-arc text-cap">
 								<li>
 									<a href="index.html">Home</a>
 								</li>
 								<li class="active">Contact Us</li>
 							</ol>
+-->
 						</div>
 					</div>
 				</section>
@@ -1053,7 +1035,7 @@
 
             <!-- =================================================== -->
             <!--FOOTER 2 -->
-            <footer class="footer-v1">
+            <footer class="footer-v1 f-center">
                 <div class="footer-left">
                     <a href="index.html" class="">
                         <img src="images/IntPerspectImages/logos/ip_logo_image_yellow.png" class="img-responsive" width="40px" height=""  alt="Image">
@@ -1126,7 +1108,11 @@
       <script src="js/plugins/wow.min.js"></script>
       <script src="js/plugins/jquery.mCustomScrollbar.concat.min.js"></script>
       <script type="text/javascript" src="js/plugins/skrollr.min.js"></script>
-       
+
+        <!----------------------------------------->
+      <!-- Smooth Scroll -->
+      <script src="js/smoothScroll.js"></script>
+
         <!----------------------------------------->
         <!--Vegas-->
         <script type="text/javascript"  src="https://cdnjs.cloudflare.com/ajax/libs/vegas/2.4.0/vegas.min.js"></script>
@@ -1155,7 +1141,7 @@
 
        <!----------------------------------------->
       <!-- Switcher -->
-      <script src="switcher/demo.js"></script>
+<!--      <script src="switcher/demo.js"></script>-->
 
        <!----------------------------------------->
       <!-- REVOLUTION JS FILES -->
