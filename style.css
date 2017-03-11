@@ -10318,7 +10318,7 @@ ul.list-link-footer li:hover:before {
   }
   .left-header,
   .header-v2 .left-header {
-    width: auto!important;
+/*    width: auto!important;*/
   }
   a.logo {
     padding-left: 0!important;

@@ -150,7 +150,7 @@ header .left-header .navi-level-1 li a.logo {
         }
 
         .right-header {
-            margin-top: 15px;
+/*            margin-top: 15px;*/
         }
     }
 
@@ -159,24 +159,42 @@ header .left-header .navi-level-1 li a.logo {
 
         .logo>img {
              width: 110px !important;
-             margin: 10px 0px;
         }
+
+          .left-header,
+          .header-v2 .left-header {
+        /*    width: auto!important;*/
+          }
 
         .h-nav {
             margin-top: 10px;
-            padding: 0 !important
+            padding: 0!important
         }
 
         .right-header {
-            margin-top: 27px;
-            padding: 0 !important
+/*            margin-top: 27px;*/
+            padding: 0!important
         }
 
     }
 
-
-
 /*---------------------------------------------------*/
+@media only screen and (max-width: 479px){
+
+    .left-header {
+        padding: 0px;
+        margin: 10px 10px 12px 10px!important;
+    }
+
+    .left-header li {}
+
+    .left-header li,
+    .logo,
+    .logo>img {
+        width: 95px!important;
+
+    }
+}
 
 
 
@@ -190,10 +208,6 @@ header .left-header .navi-level-1 li a.logo {
     background: #333;
     display: inline-block;
     width: 100%;
-}
-
-.footer_icon {
-
 }
 
 .footer_icon img {
@@ -222,7 +236,24 @@ header .left-header .navi-level-1 li a.logo {
         margin-right: 30px;
     }
 
+    .footer-v1 {
+        padding: 15px 30px 30px 5px;
+/*        padding-bottom: 47px;*/
+        background: #333;
+        display: inline-block;
+        width: 100%;
+    }
+
 }
+
+/*---------------------------------------------------*/
+@media only screen and (max-width: 479px){
+    .footer-v1 nav ul li a {
+        padding: 0 35px;
+        font-size: .75rem;
+    }
+}
+
 
 /*===============================================================*/
 /*Page Preloader*/
