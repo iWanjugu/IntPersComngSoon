@@ -109,7 +109,7 @@ jQuery(document).ready(function() {
 	(function($) { "use strict";      
 		//Timer
 		$('.countdown').downCount({
-		  date: '12/30/2016 12:00:00',
+		  date: '04/03/2017 12:00:00',
 		  offset: +10
 		}, function () {
 //		  alert('WOOT WOOT, done!');
