@@ -412,7 +412,12 @@ header .left-header .navi-level-1 li a.logo {
 
 }
 
-
+.coming-soon-content {
+    width: 100%;
+    margin: 0 auto;
+    top: 47% !important;
+    left: 50%;        
+}
 
 /*Logo*/
 .coming_soon_logo {
@@ -536,6 +541,16 @@ ul.social-dark li a.drk {
     background: rgba(85,85,85, 0.7);    
 }
 
+.backto_ {
+    text-decoration: underline;
+    font-size: .7rem;
+    margin-top: 20px;
+    color: #ccc;
+}
+
+.backto_:hover {
+    color: #facc48;
+}
 
 /*========================*/
 /*Tablet size*/
@@ -600,6 +615,7 @@ ul.social-dark li a.drk {
     .coming-soon-content {
         width: 100%;
         margin: 0 auto;
+        padding: 0px 10px 30px 10px;
     }
 
     .p-big {
