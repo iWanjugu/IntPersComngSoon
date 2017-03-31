@@ -541,15 +541,27 @@ ul.social-dark li a.drk {
     background: rgba(85,85,85, 0.7);    
 }
 
+
 .backto_ {
-    text-decoration: underline;
-    font-size: .7rem;
-    margin-top: 20px;
-    color: #ccc;
+    margin-top: 10px;
+
 }
 
-.backto_:hover {
+
+.backto_ a {
+/*    text-decoration: underline;*/
+    font-size: .7rem;
+
+/*    color: rgba(85,85,85, 0.7); */
+    color: rgba(182,182,182, 0.7);
+
+}
+
+.backto_ a:hover {
+    text-decoration: underline;
     color: #facc48;
+    color: rgba(250,204,72,0.7)
+
 }
 
 /*========================*/
